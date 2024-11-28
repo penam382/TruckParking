@@ -1,6 +1,6 @@
-import Header from "./Header.jsx"
-import Footer from "./Footer.jsx";
-import Food from "./Food.jsx";
+import Header from "./Left/Header.jsx"
+import Footer from "./Left/Footer.jsx";
+import Body from "./Left/Body.jsx";
 
 // root
 function App() {
@@ -9,7 +9,7 @@ function App() {
     //return a component
     <>
       <Header/>
-      <Food />
+      <Body />
       <Footer/>
       
     </>
